@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "plaO assignment",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js",
+    "test": "start"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "Trisha Das",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  }
+}
