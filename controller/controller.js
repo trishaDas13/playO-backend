@@ -46,8 +46,9 @@ const getAllData = async (req, res) => {
 }
 
 const deleteData = async(req, res) => {
+  console.log(req.params.id)
     try{
-        await dataModel.deleteOne({_id: req.body._id})
+        await dataModel.deleteOne({_id: req.params.id})
         res.json({
             success: true,
             message: "Item deleted successfully",
